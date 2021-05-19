@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Web_Truck</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__body head-body">
+                <div class="head-body__menu menu-header">
+                    <div class="menu-header__body">
+                        <ul class="menu-header__list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <div class="page__conteiner conteiner">
+                <aside class="page__side side">
+                    <div class="side__body ">
+                        <form action="#">
+                            <div class="side__result"></div>
+                            <div class="side__param1 side-param">
+                                <div class="side-param__title">Type</div>
+                                <p><input type="checkbox" name="param1" id="Container transporter/ swap body truck" value="Container transporter/ swap body truck">Container transporter/ swap body truck</p>
+                                <p><input type="checkbox" name="param1" id="Cab chassis truck" value="Cab chassis truck" >Cab chassis truck</p>
+                                <p><input type="checkbox" name="param1" id="Curtainsider truck" value="Curtainsider truck" >Curtainsider truck</p>
+                                <p><input type="checkbox" name="param1" id="Box truck" value="Box truck" >Box truck</p>
+                            </div>
+                            <div class="side__param2 side-param">
+                                <div class="side-param__title">Configuration</div>
+                                <p><input type="checkbox" name="4x4" value="yes">6x2</p>
+                                <p><input type="checkbox" name="6x2" value="yes">4x4</p>
+                                <p><input type="checkbox" name="4x2" value="yes">4x2</p>
+                            </div>
+                            <div class="side__price side-param">
+                                <div class="side-param__title">Cost</div>
+                                <input type="text" name="minprice" placeholder="min" value="10">
+                                <input type="text" name="maxprice" placeholder="max" value="50000">
+                            </div>
+                        </form>
+                    </div>
+                </aside>
+                <div class="page__content content">
+                    <div class="content__filter">
+                        <div class="filter-title">Sort by</div>
+                        <select name="filter">
+                            <option selected value="1">cheap first</option>
+                            <option value="2">expensive first</option>
+                        </select>
+                    </div>
+                    <!-- <div class="content__card card">
+                        <div class="card__item item">
+                            <div class="item__img">
+                                <img src="./img/header_bg.jpg" alt="truck">
+                            </div>
+                            <div class="item__body txt-body">
+                                <h3 class="txt-body__title">DAF XF 440 6X2 SSC Intarder Standklima Liftachse ACC Euro 6
+                                </h3>
+                                <div class="txt-body__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum
+                                    dolor, sit amet consectetur adipisicing.
+                                </div>
+                                <div class="txt-body__info">
+                                    <span class="item__year">2014</span>
+                                    <span class="item__mileage">30000</span>
+                                    <span class="item__axle-configuration">6x6</span>
+                                </div>
+                            </div>
+                            <div class="item__price">$39900</div>
+                        </div>
+                    </div>
+                    <div class="content__card card">
+                        <div class="card__item item">
+                            <div class="item__img">
+                                <img src="./img/header_bg.jpg" alt="truck">
+                            </div>
+                            <div class="item__body txt-body">
+                                <h3 class="txt-body__title">"DAF XF 440 6X2 SSC Intarder Standklima Liftachse ACC Euro 6
+                                </h3>
+                                <div class="txt-body__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum
+                                    dolor, sit amet consectetur adipisicing.
+                                </div>
+                                <div class="txt-body__info">
+                                    <span class="item__year">2014</span>
+                                    <span class="item__mileage">30000</span>
+                                    <span class="item__axle-configuration">6x6</span>
+                                </div>
+                            </div>
+                            <div class="item__price">$39900</div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="content__info">
+                        <p class="content__info-text" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, velit?</p>
+                        <p class="content__info-text" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, aut. Dolore aliquam consequatur voluptatibus ullam provident expedita! Eaque, blanditiis odit.</p>
+                        <p class="content__info-text" >Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div> -->
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="conteiner">
+                <div class="footer__content content-footer">
+                    <div class="content-footer__info footer-info">
+                        <div class="footer-info__title">DAF trucks</div>
+                        <div class="footer-info__adress-block footer-info__block">
+                            <div class="footer-info__adres-img footer-info__img ">
+                                <svg class="icon" width='14' height='14'>
+                                    <use xlink:href="img/icons.svg#phone"></use>
+                                </svg>
+                            </div>
+                            <div class="footer-info__adress">
+                                Company Adress: Lorem ipsum dolor sit amet 18600,
+                                Netherlands Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, laudantium.
+                            </div>
+                        </div>
+                        <div class="footer-info__phone-block footer-info__block">
+                            <div class="footer-info__phone-img footer-info__img ">
+                                <svg class="icon" width='14' height='14'>
+                                    <use xlink:href="img/icons.svg#adress"></use>
+                                </svg>
+                            </div>
+                            <div class="footer-info__phone">+38 958 755-00-00</div>
+                        </div>
+                        <div class="footer-info__gaph">
+                            <a class=" footer-info__img ">
+                                <svg class="net-icon" width='30' height='30'>
+                                    <use xlink:href="img/icons.svg#social_icon__twitter"></use>
+                                </svg>
+                            </a>
+                            <a class=" footer-info__img ">
+                                <svg class="net-icon" width='30' height='30'>
+                                    <use xlink:href="img/icons.svg#social_icon__instagram"></use>
+                                </svg>
+                            </a>
+                            <a class=" footer-info__img ">
+                                <svg class="net-icon" width='30' height='30'>
+                                    <use xlink:href="img/icons.svg#social_icon__facebook"></use>
+                                </svg>
+                            </a>
+                            <a class=" footer-info__img ">
+                                <svg class="net-icon"width='30' height='30'>
+                                    <use xlink:href="img/icons.svg#social_icon__youtube"></use>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="content-footer__promo">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus quasi quis
+                            facere
+                            nam rem, delectus quaerat, earum, illo quas consequatur voluptatibus recusandae? Harum rem
+                            libero ex, quod animi hic.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="index.js"> </script>
+</body>
+
+</html>

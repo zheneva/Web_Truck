@@ -1,0 +1,396 @@
+@import "NULLstyle.scss";
+
+//==================Fonts=========================//
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+//==================Fonts=========================//
+
+$screen_sm: 576px;
+$screen_md: 768px;
+$screen_lg: 992px;
+$screen_xl: 1200px;
+
+$screen_sm_max: 767px;
+$screen_md_max: 991px;
+$screen_lg_max: 1199px;
+
+.conteiner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    //! overflow: hidden;
+}
+.header {
+    font-family: "Roboto";
+
+    display: flex;
+    // align-items: center;
+    // justify-content: start;
+
+    height: 100vh;
+
+    background-image: url(..//img/header_bg_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__body {
+        flex: 1 1 auto;
+    }
+}
+
+.head-body {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 0 0;
+    &__menu {
+    }
+
+    &__title {
+        color: #fff;
+        font-size: 48px;
+        line-height: 70px;
+        font-weight: 700;
+        padding: 0 40px;
+        margin-bottom: 40px;
+    }
+
+    &__subtitle {
+        color: #fff;
+        font-size: 22px;
+        line-height: 24px;
+        padding: 0 40px;
+        padding-bottom: 50px;
+    }
+}
+.menu-header {
+    flex-grow: 1;
+
+    display: flex;
+    align-items: flex-end;
+
+    &__body {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-bottom: 2px solid #fff;
+        width: 100%;
+        box-shadow: 00px -10px 70px #fff;
+        //!box-shadow:-10px -10px 70px #fff;
+    }
+
+    &__list {
+        margin-left: 40px;
+
+    }
+    &__list li {
+        display: inline-block;
+        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0.8);
+        transform: skew(10deg, 0);
+        
+        margin: 0 2px;
+    }
+
+    &__link {
+        display: inline-block;
+        color: #000;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 15px 20px;
+    }
+}
+
+// input{
+//     outline: #000;
+//     border: 1px solid #000;
+// }
+
+//ToDoo доделеать фильтры(текст у чекбоксов) и начитнать стили
+
+
+.page {
+    padding: 40px 20px;
+    background-color:rgb(236, 236, 236);
+    background-color:rgb(23, 23, 43);
+    // background-color: rgba(255, 255, 255, 0.8);
+    color: #fff;
+    font-family: "Roboto";
+
+    &__conteiner{
+        display: flex;
+    }
+
+    &__side {
+        flex: 0 0 270px;
+        background-color: rgb(51, 47, 47);
+        border-radius: 20px;
+
+        padding: 20px;
+
+        align-self: flex-start;
+        
+    }
+
+    &__content {
+        //!padding: 20px 20px 0 20px ;
+        margin: 0 0 -30px 40px;
+    }
+}
+
+.side {
+
+    &__body {
+    }
+
+    &__result {
+    }
+
+    &__param1 {
+    }
+
+    &__param2 {
+    }
+
+    &__price {
+    }
+    &__price input{
+        display: inline-block;
+        width: 40px;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 7px;
+    }
+}
+.side-param {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.side-param input{
+    margin-bottom: 10px;
+}
+
+.side-param__title {
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.content {
+
+    &__filter{
+        background-color: rgb(51, 47, 47);
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    
+    &__filter select{
+        border-radius: 7px;
+        padding: 5px;
+    }
+
+    &__card {
+        background-color: rgb(51, 47, 47);
+
+        border-radius: 20px;
+    }
+
+    &__info{
+        padding: 20px;
+        background-color: rgb(51, 47, 47);
+        color: #fff;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    
+    &__info p{
+        font-size: 18px;
+        line-height: 20px;
+        margin: 10px;
+    }
+}
+
+.filter-title{
+    display: inline-block;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.card {
+    &__item {
+        display: flex;
+        margin-bottom: 30px;
+    }
+}
+.item {
+    padding: 20px;
+
+    &__img {
+        margin-right: 20px;
+        position: relative;
+        padding: 15%;
+    }
+
+    &__img img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__year {
+    }
+
+    &__mileage {
+    }
+
+    &__axle-configuration {
+    }
+
+    &__price {
+    }
+}
+.txt-body {
+    
+
+    &__title {
+        flex: 0 0 auto ;
+
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+
+    &__text {
+        flex: 1 0 auto;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    &__info{
+        flex: 0 0 20px ;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__info span{
+        border-radius: 5px;
+        display: inline-block;
+        padding: 4px;
+        background-color: rgba(255, 255, 255, 0.3);
+
+    }
+}
+
+
+.icon{
+    fill: #000;
+}
+.net-icon{
+    fill: #fff;
+}
+
+
+
+//*==========foooter==============*//
+.footer {
+    font-family:"Roboto" ;
+    padding: 30px;
+    background-color: rgb(51, 47, 47);
+
+    &__content {
+    }
+}
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+
+
+    &__info {
+        flex: 0 0 30%;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 12px;
+    }
+
+    &__promo {
+        flex: 0 0 60%;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 12px;
+
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__promo p {
+        flex-grow: 1;
+    }
+}
+.footer-info {
+
+    &__title-block {
+
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0 ;
+        border-bottom: 2px dotted #000;
+        
+    }
+
+    &__title {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        padding-bottom: 10px;
+        border-bottom: 2px dotted rgb(51, 47, 47);
+    }
+
+    &__adress-block {
+
+    }
+
+    &__adres-img {
+        margin-right: 10px;
+    }
+
+    &__img {
+        display: block;
+    }
+
+    &__adress {
+    }
+
+    &__phone-block {
+    }
+
+    &__phone {
+    }
+
+    &__phone-img {
+    }
+
+    &__gaph {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+}
+
+
