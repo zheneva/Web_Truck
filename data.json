@@ -54,7 +54,7 @@
             "power_measure": "hp",
             "payload": "16 550 kg",
             "gross_weight": "25 700 kg",
-            "image": "../img/1.jpg"
+            "image": "img/1.jpg"
         },
         {
             "href": "#",
@@ -72,7 +72,7 @@
             "power_measure": "hp",
             "payload": "15 761 kg",
             "gross_weight": "26 000 kg",
-            "image": "../img/2.jpg"
+            "image": "img/2.jpg"
         },
         {
             "href": "#",
@@ -90,7 +90,7 @@
             "power_measure": "hp",
             "payload": "10 710 kg",
             "gross_weight": "18 600 kg",
-            "image": "../img/3.jpg"
+            "image": "img/3.jpg"
         },
         {
             "href": "#",
@@ -108,7 +108,7 @@
             "power_measure": "hp",
             "payload": "9 634 kg",
             "gross_weight": "19 000 kg",
-            "image": "../img/4.jpg"
+            "image": "img/4.jpg"
         },
         {
             "href": "#",
@@ -126,7 +126,7 @@
             "power_measure": "hp",
             "payload": "7 445 kg",
             "gross_weight": "19 000 kg",
-            "image": "../img/5.jpg"
+            "image": "img/5.jpg"
         },
         {
             "href": "#",
@@ -144,7 +144,7 @@
             "power_measure": "hp",
             "payload": "14 960 kg",
             "gross_weight": "26 000 kg",
-            "image": "../img/6.jpg"
+            "image": "img/6.jpg"
         }
     ],
     "page_text": [
